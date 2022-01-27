@@ -1,0 +1,95 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.box {
+    width: 500px;
+    height: 400px;
+    background-color: #ccccff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.cab {
+    width: inherit;
+    height: 120px;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.formulario {
+    width: 450px;
+    height: 200px;
+    /* background-color: lawngreen; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#butt {
+    margin-top: 30px;
+    margin-left: 185px;
+}
+
+label {
+    color: #f2f2f2;
+}
+
+.box2 {
+    width: 500px;
+    height: 400px;
+    background-color: #ccccff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-top: 60px;
+}
+
+.bemVindo {
+    width: 450px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 70px;
+    border: solid 1px #f2f2f2;
+}
+
+body {
+    background-image: url(/Content/imagens/red.jpg);
+}
+
+label {
+    color: black;
+}
